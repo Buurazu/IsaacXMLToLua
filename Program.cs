@@ -21,7 +21,7 @@ namespace IsaacXMLToLua
             List<string> recipeInputs = new List<string>();
             List<int> recipeOutputs = new List<int>();
 
-            StreamWriter eidXmlData = new StreamWriter("eid_xmlData.lua", false);
+            StreamWriter eidXmlData = new StreamWriter("eid_xmldata.lua", false);
 
             XmlReader itemMetadataXML = XmlReader.Create("resources/items_metadata.xml");
             XmlReader poolsXML = XmlReader.Create("resources/itempools.xml");
